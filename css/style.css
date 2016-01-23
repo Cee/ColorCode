@@ -24,7 +24,6 @@ h1 {
 }
 h2 {
 	padding: 28px 0;
-	font-family: Roboto;
 	font-size: 40px;
 	font-weight: bold;
 	color: #ff4b23;
@@ -132,7 +131,6 @@ a {
 }
 .section-text p {
 	padding-right: 6.25%;
-	font-family: Roboto;
 	font-size: 18px;
 	line-height: 28px;
 	color: #343434;
@@ -281,13 +279,11 @@ a {
 }
 #tweekr-top .link-more {
 	margin: 28px 0 110px;
-	font-family: Roboto;
 }
 #tweekr-top .link-gp {
 	margin: 0 0 80px;
 }
 #tweekr-top span {
-	font-family: Roboto;
 	color: rgba(0, 0, 0, 0.23);
 }
 
@@ -303,7 +299,6 @@ a {
 .feature-text {
 	float: left;
 	width: 80%;
-	font-family: Roboto;
 }
 .feature-text h3 {
 	padding-bottom: 10px;
@@ -479,11 +474,10 @@ a {
 		display: block;
 		position: absolute;
 		right: 6.4%;
-		top: 18px;
-		width: 44px;
-		height: 42px;
+		top: 28px;
+		width: 24px;
+		height: 26px;
 		z-index: 10;
-		padding: 10px;
 	}
 
 	#toggle span:after,
@@ -491,10 +485,10 @@ a {
 		content: "";
 		position: absolute;
 		left: 0;
-		top: -8px;
+		top: -9px;
 	}
 	#toggle span:after{
-		top: 8px;
+		top: 9px;
 	}
 	#toggle span {
 		position: relative;
