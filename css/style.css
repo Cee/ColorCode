@@ -709,10 +709,10 @@ a {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 	.container {
 		margin: 0 auto;
-		width: 1200px;
+		width: 1280px;
 	}
 	.section-screenshots {
 		padding: 60px 0 60px 9.125%;
