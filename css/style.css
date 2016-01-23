@@ -138,7 +138,7 @@ a {
 	color: #343434;
 }
 .section-img {
-	padding-top: 190px;
+	padding-top: 210px;
 	text-align: right;
 	padding-right: 6.25%;
 }
@@ -479,10 +479,11 @@ a {
 		display: block;
 		position: absolute;
 		right: 6.4%;
-		top: 28px;
-		width: 24px;
-		height: 26px;
+		top: 18px;
+		width: 44px;
+		height: 42px;
 		z-index: 10;
+		padding: 10px;
 	}
 
 	#toggle span:after,
@@ -490,10 +491,10 @@ a {
 		content: "";
 		position: absolute;
 		left: 0;
-		top: -9px;
+		top: -8px;
 	}
 	#toggle span:after{
-		top: 9px;
+		top: 8px;
 	}
 	#toggle span {
 		position: relative;
@@ -518,7 +519,7 @@ a {
 		transform: rotate(45deg) translate(5px, 5px);
 	}
 	#toggle.on span:after {
-		transform: rotate(-45deg) translate(7px, -8px);
+		transform: rotate(-45deg) translate(7px, -7px);
 	}
 	#toggle.on,
 	#menu.on {
@@ -710,15 +711,15 @@ a {
 		height: auto;
 		padding: 56px 6.4%;
 	}
+	.intro p, .quote-content {
+		line-height: 31.5px;
+	}
 }
 
 @media (min-width: 1280px) {
 	.container {
 		margin: 0 auto;
 		width: 1280px;
-	}
-	#section {
-
 	}
 	.section-screenshots {
 		padding: 60px 0 60px 9.125%;
