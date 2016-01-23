@@ -62,7 +62,7 @@ a {
 }
 .nav {
 	float: right;
-	padding-right: 6.25%;
+	/*padding-right: 6.25%;*/
 	text-align: right;
 	white-space: nowrap;
 }
@@ -127,7 +127,7 @@ a {
 	overflow: hidden;
 }
 .section-text {
-	padding-left: 12.5%;
+	padding-left: 6.25%;
 	padding-top: 240px;
 }
 .section-text p {
@@ -151,6 +151,7 @@ a {
 	padding-top: 80px;
 }
 .section-cover .section-text {
+	padding-left: 12.5%;
 	padding-top: 100px;
 }
 .section-cover .section-img {
@@ -161,7 +162,7 @@ a {
 
 .section-features {
 	height: auto;
-	padding: 70px 12.5%;
+	padding: 70px 0 70px 6.25%;
 	clear: both;
 	overflow: hidden;
 }
@@ -231,11 +232,11 @@ a {
 
 #ifanr .section-img img {
 	position: relative;
-	right: -40px;
+	/*right: -40px;*/
 }
 #klook .section-img img {
 	position: relative;
-	right: -90px;
+	/*right: -90px;*/
 }
 
 #klook {
@@ -357,6 +358,7 @@ a {
 	font-weight: 300;
 	line-height: 36px;
 	text-align: justify;
+	font-weight: 200;
 }
 .intro p a {
 	color: #676767;
@@ -713,6 +715,9 @@ a {
 	.container {
 		margin: 0 auto;
 		width: 1280px;
+	}
+	#section {
+
 	}
 	.section-screenshots {
 		padding: 60px 0 60px 9.125%;
