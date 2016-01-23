@@ -451,6 +451,7 @@ a {
 	background-image: -moz-image-set(url('../img/contact.png') 1x, url('../img/contact@2x.png') 2x);
 	background-image: -ms-image-set(url('../img/contact.png') 1x, url('../img/contact@2x.png') 2x);
 	background-image: -o-image-set(url('../img/contact.png') 1x, url('../img/contact@2x.png') 2x);
+	background-size: cover;
 }
 
 @media (max-width: 48em) {
