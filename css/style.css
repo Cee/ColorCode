@@ -141,11 +141,6 @@ a {
 	text-align: right;
 	padding-right: 6.25%;
 }
-/*.section-img img {
-	max-width: 100%;
-	height: auto;
-}*/
-
 .section-cover {
 	height: 520px;
 	padding-top: 30px;
@@ -373,6 +368,9 @@ a {
 	line-height: 36px;
 	text-align: justify;
 	font-weight: 200;
+}
+.intro p:last-child {
+	padding-bottom: 60px;
 }
 .intro p a {
 	color: #676767;
@@ -688,7 +686,6 @@ a {
 		margin-bottom: 48px;
 	}
 	#tweekr-top {
-		/*padding-top: 48px;*/
 		height: 830px;
 	}
 	#tweekr-top .section-text {
