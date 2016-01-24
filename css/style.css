@@ -483,7 +483,7 @@ a {
 	.header-title {
 		padding-left: 6.4%;
 		line-height: 60px;
-		/*max-width: 250px;*/
+		max-width: 250px;
 	}
 	.nav {
 		display: none;
@@ -494,8 +494,8 @@ a {
 		position: absolute;
 		right: 6.4%;
 		top: 28px;
-		width: 24px;
-		height: 26px;
+		width: 34px;
+		height: 36px;
 		z-index: 10;
 	}
 
@@ -690,11 +690,11 @@ a {
 	}
 	#tweekr-top {
 		/*padding-top: 48px;*/
-		height: 915px;
+		height: 860px;
 	}
 	#tweekr-top .section-text {
 		margin-top: 0;
-		padding-top: 40px;
+		padding-top: 60px;
 	}
 	#tweekr-top .section-text .link-more {
 		margin-bottom: 48px;
