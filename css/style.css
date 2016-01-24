@@ -264,7 +264,7 @@ a {
 	position: relative;
 	height: 1px;
 	margin: 0 auto;
-	width: 900px;
+	max-width: 900px;
 	background-color: #e8e8e8;
 }
 #tweekr-top .section-text {
@@ -280,6 +280,9 @@ a {
 #tweekr p,
 #tweekr-top p {
 	color: #6b6b6b;
+}
+#tweekr-text-p {
+	margin-bottom: 150px;
 }
 #tweekr .section-img,
 #tweekr-top .section-img {
@@ -480,7 +483,7 @@ a {
 	.header-title {
 		padding-left: 6.4%;
 		line-height: 60px;
-		max-width: 250px;
+		/*max-width: 250px;*/
 	}
 	.nav {
 		display: none;
@@ -702,7 +705,12 @@ a {
 	#tweekr-top .section-img {
 		padding-top: 48px;
 	}
-
+	#tweekr-text-p {
+		margin-bottom: 20px;
+	}
+	#line {
+		max-width: 60%;
+	}
 	.link-more {
 		margin: 28px 0 56px;
 	}
