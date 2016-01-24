@@ -134,6 +134,7 @@ a {
 	font-size: 18px;
 	line-height: 28px;
 	color: #343434;
+	max-width: 80%;
 }
 .section-img {
 	padding-top: 210px;
@@ -230,7 +231,9 @@ a {
 }
 
 #ifanr .section-img img {
+	display: block;
 	position: relative;
+	padding-right: 6.25%;
 	/*right: -40px;*/
 }
 #klook .section-img img {
@@ -250,7 +253,19 @@ a {
 
 #tweekr-top {
 	height: 730px;
-	background-color: #fff;
+	background-color: #fff;	
+}
+#tweekr-top .container {
+	padding-bottom: 50px;
+
+}
+#line {
+	display: block;
+	position: relative;
+	height: 1px;
+	margin: 0 auto;
+	width: 900px;
+	background-color: #e8e8e8;
 }
 #tweekr-top .section-text {
 	padding-top: 170px;
@@ -465,6 +480,7 @@ a {
 	.header-title {
 		padding-left: 6.4%;
 		line-height: 60px;
+		max-width: 200px;
 	}
 	.nav {
 		display: none;
@@ -608,6 +624,9 @@ a {
 	.section-text {
 		padding: 48px 6.4% 0;
 	}
+	.section-text p {
+		max-width: none;
+	}
 	.section-img {
 		padding: 0 6.4%;
 		text-align: left;
@@ -667,7 +686,12 @@ a {
 		margin-bottom: 48px;
 	}
 	#tweekr-top {
-		padding-top: 48px;
+		/*padding-top: 48px;*/
+		height: 915px;
+	}
+	#tweekr-top .section-text {
+		margin-top: 0;
+		padding-top: 40px;
 	}
 	#tweekr-top .section-text .link-more {
 		margin-bottom: 48px;
@@ -705,8 +729,22 @@ a {
 		height: auto;
 		padding: 56px 6.4%;
 	}
-	.intro p, .quote-content {
-		line-height: 31.5px;
+	.intro p {
+		line-height: 28px;
+	}
+	.quote-content {
+		font-size: 18px;
+		line-height: 38px;
+		text-align: left;
+	}
+	.quote-author {
+		font-size: 16px;
+	}
+	.intro {
+		padding-top: 60px;
+	}
+	.section-cover .section-text {
+		padding-top: 60px;
 	}
 }
 
